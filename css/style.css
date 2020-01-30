@@ -1,0 +1,82 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Contact Form Section Start */
+.contact-wrapperp-bg{
+	background-image: url(../img/contact-bg.jpg);
+}
+.section-padding {
+  padding: 80px 0;
+}
+.contact-wrapper {
+  position: relative;
+  padding: 80px;
+  color: #fff;
+}
+.contact-wrapperp-bg {
+  content: "";
+  height: 80%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+}
+.contact-wrapper .row {
+  position: relative;
+  z-index: 2;
+}
+.contact-wrapperp-bg:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #0176c0;
+  opacity: .6;
+  z-index: -1;
+}
+.boxed-form {
+  background-color: #fff;
+  margin-left: 100px;
+  color: #333;
+  padding: 50px;
+  box-shadow: 0 0 10px #ccc;
+}
+.boxed-form input, .boxed-form textarea {
+  padding: 13px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.boxed-form textarea {
+  height: 120px;
+}
+.boxed-form input[type="submit"] {
+  color: #fff;
+  background: #1ed85f;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+}
+/* Contact Form Section Stop */
